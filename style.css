@@ -70,6 +70,16 @@ nav ul a {
   );
   padding: 8px 16px;
   border-radius: 50px;
+  align-items: center;
+}
+
+.secondary-button {
+  color: #00ff88;
+  border: 1px solid #00ff88;
+  padding: 7px 15px;
+  border-radius: 50px;
+  align-items: center;
+  margin-left: 10px;
 }
 
 /* Banner CSS */
@@ -266,7 +276,8 @@ nav ul a {
 
 .fa-brands,
 .fa-solid,
-.fa-brands {
+.fa-brands,
+.fa-regular {
   margin-right: 10px;
 }
 
@@ -302,5 +313,5 @@ footer {
 }
 
 .footer-content p {
-    margin-top: 30px;
+  margin-top: 30px;
 }
