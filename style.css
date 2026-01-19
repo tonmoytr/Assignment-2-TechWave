@@ -203,7 +203,7 @@ nav ul a {
   grid-row: span 2;
 }
 
-article h5 {
+.features-grid h5 {
   font-size: 1.5em;
   padding: 20px 0;
 }
@@ -214,4 +214,56 @@ article h5 {
   justify-content: center;
   align-items: flex-start;
   text-align: left;
+}
+
+/* Featured Episodes */
+.episodes-section {
+  padding: 5% 0;
+}
+.episodes-section h2 {
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.featured-episodes {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.featured-episodes article {
+  background: rgba(37, 13, 68, 1);
+
+  border-radius: 25px 25px 15px 15px;
+}
+
+.podcast-frame {
+  width: 100%;
+  height: 215px;
+  border-radius: 25px 25px 0 0;
+}
+
+.podcast-hgroup {
+  height: 240px;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.podcast-hgroup h5 {
+  font-size: 1.5em;
+  padding: 20px 0;
+}
+
+.podcast-hgroup strong {
+  color: #00ff88;
+  font-size: 1em;
+}
+
+.fa-clock {
+  margin-right: 10px;
 }
