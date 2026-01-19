@@ -9,6 +9,10 @@
   --third-color: rgba(145, 0, 248, 1);
 }
 
+body {
+  background-color: #1a0b2e;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -20,10 +24,6 @@ a {
 
 li {
   list-style: none;
-}
-
-header {
-  background-color: #1a0b2e;
 }
 
 nav {
@@ -70,4 +70,148 @@ nav ul a {
   );
   padding: 8px 16px;
   border-radius: 50px;
+}
+
+/* Banner CSS */
+.hero-container {
+  background-image: url("./assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  position: relative;
+}
+
+.hero-top {
+  position: relative;
+}
+
+.microphone-area {
+  /* width: 400px; */
+  border: 1px solid red;
+}
+
+.circle-img {
+  width: 340px;
+  position: absolute;
+  top: 45px;
+  left: 39%;
+}
+
+.microphone {
+  width: 100px;
+  position: absolute;
+  top: 138px;
+  left: 47%;
+}
+
+.hero-content {
+  /* border: 1px solid #eee; */
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+}
+
+.hero-content h2 {
+  color: #fff;
+  font-size: 4em;
+}
+
+.hero-content p {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* About Section */
+.about-container {
+  padding-top: 8%;
+  padding-bottom: 10%;
+}
+
+.about-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  width: 55%;
+  padding-bottom: 9%;
+  text-align: center;
+  color: #fff;
+}
+
+.about-content h3 {
+  font-size: 3em;
+  padding-bottom: 4%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.stats hgroup h4 {
+  color: #00ff88;
+  font-size: 3.2em;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.stats hgroup p {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* Why Choose */
+.why-choose {
+  background: rgba(35, 14, 61, 1);
+  padding: 12% 0;
+}
+
+.why-choose h2 {
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.features-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.feature-card {
+  color: #fff;
+  padding: 30px;
+  text-align: left;
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+}
+
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.row-span-2 {
+  grid-row: span 2;
+}
+
+article h5 {
+  font-size: 1.5em;
+  padding: 20px 0;
+}
+
+.features-grid article:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
 }
