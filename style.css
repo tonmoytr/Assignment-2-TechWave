@@ -294,6 +294,57 @@ nav ul a {
   margin-right: 10px;
 }
 
+/* Host CSS */
+.host-container {
+  padding: 8% 0;
+}
+
+.host-container h2 {
+  font-size: 4em;
+  padding-bottom: 4%;
+  color: #fff;
+  text-align: center;
+}
+
+.host-card {
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 30px;
+  padding: 30px 40px;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.host-card h5 {
+  font-size: 2em;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.host-card p {
+  color: #fff;
+}
+
+.host-card ul {
+  padding-top: 15px;
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.host-card ul li {
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  border: 1px solid rgba(83, 60, 114, 1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Footer CSS */
 footer {
   background: url("./assets/footer-bg.png");
