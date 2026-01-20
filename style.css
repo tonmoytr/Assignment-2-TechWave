@@ -456,6 +456,19 @@ footer {
     height: 300px;
   }
 
+  .host-container {
+    padding: 20px 20px 80px 20px;
+  }
+
+  .host-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .host-card ul {
+    justify-content: center;
+  }
+
   .footer-content {
     width: 45%;
   }
@@ -466,5 +479,14 @@ footer {
 
   .footer-content ul li:nth-child(3) {
     margin-left: 22px;
+  }
+}
+
+/* Small Devices */
+@media screen and (max-width: 424px) {
+  .circle-img {
+    width: 340px;
+    left: 28%;
+    top: 45px;
   }
 }
