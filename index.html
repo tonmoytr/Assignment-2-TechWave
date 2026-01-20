@@ -24,7 +24,8 @@
   <body>
     <!-- Header/Navbar -->
     <header>
-      <nav class="container">
+        <!-- Desktop Navbar -->
+      <nav class="container hidden">
         <a href="/">
           <h1>Tech<span class="wave">Wave</span></h1>
         </a>
@@ -35,6 +36,17 @@
         </ul>
         <a class="primary-button" href="#">Subscribe</a>
       </nav>
+
+      <!-- Mobile Navbar -->
+      <div class="desk-hidden">
+        <nav >
+         <a href="/">
+          <h1>Tech<span class="wave">Wave</span></h1>
+        </a>
+         <!-- hamburger | hidden for desktop -->
+        <a href="#"><img class="hamburger" src="./assets/hamburger-menu.png" alt="hamburger icon"></a>
+      </nav>
+      </div>
     </header>
 
     <!-- Main Content -->
