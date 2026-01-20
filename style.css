@@ -167,11 +167,11 @@ nav ul a {
   padding-bottom: 4%;
 }
 
-.about-bottom {
+/* .about-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .stats {
   display: grid;
@@ -318,10 +318,9 @@ footer {
 }
 
 .footer-content ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
   gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
   padding: 15px 0;
 }
 
@@ -392,5 +391,29 @@ footer {
   .stats {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    text-align: center;
+  }
+  .features-grid {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .featured-episodes {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .podcast-frame {
+    height: 300px;
+  }
+
+  .footer-content {
+    width: 45%;
+  }
+
+  .footer-content ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-content ul li:nth-child(3) {
+    margin-left: 22px;
   }
 }
