@@ -483,6 +483,9 @@ footer {
   .footer-content ul li:nth-child(3) {
     margin-left: 22px;
   }
+  .badge {
+    right: 30%;
+  }
 }
 
 /* Small Devices */
