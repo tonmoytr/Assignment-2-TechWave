@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +13,7 @@
 
 body {
   background-color: #1a0b2e;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -361,7 +364,7 @@ footer {
 }
 
 .footer-content {
-  width: 35%;
+  width: 42%;
   text-align: center;
   color: #fff;
 }
@@ -529,6 +532,37 @@ footer {
   .badge {
     right: 30%;
   }
+}
+
+/* 576ps Breakpoint */
+@media screen and (max-width: 576px) {
+  .circle-img {
+    left: 21%;
+  }
+
+  .footer-content {
+    width: 60%;
+  }
+}
+
+.hero-content h2 {
+  font-size: 3em;
+}
+
+.primary-button {
+  font-size: 1em;
+}
+
+.secondary-button {
+  font-size: 1em;
+}
+
+.about-content h3 {
+  font-size: 3em;
+}
+
+.about-content p {
+  font-size: 1.1em;
 }
 
 /* Small Devices */
