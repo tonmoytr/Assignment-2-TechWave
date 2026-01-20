@@ -382,6 +382,49 @@ footer {
   margin-top: 30px;
 }
 
+/* Animation CSS */
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pulse-glow {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+}
+
+.microphone {
+  animation: float 3s ease-in-out infinite;
+  z-index: 2;
+}
+
+.circle-img {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+.badge {
+  animation: float 3.5s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
 /* Mobile Responsive CSS */
 
 @media screen and (max-width: 768px) {
